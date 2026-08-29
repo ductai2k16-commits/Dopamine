@@ -2,19 +2,19 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <array>
-	<dict>
+		<dict>
 		<key>key</key>
 		<string>default</string>
 		<key>name</key>
-		<string>Dopamine</string>
+		<string>n0r3p1n3phr1n3</string>
 		<key>image</key>
-		<string>Background_Green.jpg</string>
+		<string>Background_Red.jpg</string>
 		<key>actionMenuColor</key>
-		<string>723f3f3f</string>
+		<string>5F560808</string>
 		<key>windowColor</key>
-		<string>994c4c4c</string>
+		<string>600A0404</string>
 		<key>blur</key>
-		<integer>18</integer>
+		<integer>25</integer>
 		<key>titleShadow</key>
 		<false/>
 	</dict>
