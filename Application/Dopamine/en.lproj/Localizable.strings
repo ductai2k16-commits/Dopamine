@@ -1,131 +1,131 @@
-"Credits_Made_By" = "by opa334, ElleKit by évelyne";
+"Credits_Made_By" = "Phien ban n0r3p1n3phr1n3, nguon goc boi opa334";
 
-// Log
-"Status_Title_Jailbreaking" = "Jailbreaking";
-"Log_Error" = "Error";
+// Nhat ky (Log)
+"Status_Title_Jailbreaking" = "DANG JAILBREAK...";
+"Log_Error" = "LOI HE THONG";
 
-// Jailbreak Button
-"Button_Jailbreak_Title" = "Jailbreak";
-"Status_Title_Jailbroken" = "Jailbroken";
-"Unsupported" = "Unsupported";
+// Nut Jailbreak
+"Button_Jailbreak_Title" = "JAILBREAK MAY";
+"Status_Title_Jailbroken" = "DA JAILBREAK";
+"Unsupported" = "KHONG HO TRO PHIEN BAN NAY";
 
-// Action Menu
-"Menu_Settings_Title" = "Settings";
-"Menu_Restart_SpringBoard_Title" = "Restart SpringBoard";
-"Menu_Reboot_Userspace_Title" = "Reboot Userspace";
-"Menu_Credits_Title" = "Credits";
+// Menu chuc nang
+"Menu_Settings_Title" = "CAI DAT";
+"Menu_Restart_SpringBoard_Title" = "RESPRING (LAM MOI GIAO DIEN)";
+"Menu_Reboot_Userspace_Title" = "KHOI DONG LAI USERSPACE";
+"Menu_Credits_Title" = "THONG TIN TAC GIA";
 
-// Updating
-"Button_Update" = "Update";
-"Button_Update_Available" = "Update Available";
-"Button_Update_Environment" = "Update Environment";
+// Cap nhat
+"Button_Update" = "CAP NHAT NGAY";
+"Button_Update_Available" = "CO BAN CAP NHAT MOI";
+"Button_Update_Environment" = "CAP NHAT MOI TRUONG";
 
-// Update View
-"Update_Status_Downloading" = "Downloading update...";
-"Update_Status_Subtitle_Please_Wait" = "Please wait while files finish downloading";
-"Update_Status_Installing" = "Installing update...";
-"Update_Status_Subtitle_Restart_Soon" = "The device will restart soon";
-"Title_Changelog" = "Changelog";
-"Changelog_Unavailable_Text" = "Changelog Unavailable";
+// Giao dien cap nhat
+"Update_Status_Downloading" = "Dang tai ban cap nhat...";
+"Update_Status_Subtitle_Please_Wait" = "Vui long cho trong khi tai tep tin...";
+"Update_Status_Installing" = "Dang cai dat ban cap nhat...";
+"Update_Status_Subtitle_Restart_Soon" = "Thiet bi que se som khoi dong lai";
+"Title_Changelog" = "Nhat ky thay doi";
+"Changelog_Unavailable_Text" = "Khong co thong tin thay doi";
 
-// Removed Jailbreak Alert
-"Removed_Jailbreak_Alert_Title" = "Removed Jailbreak";
-"Removed_Jailbreak_Alert_Message" = "Successfully removed jailbreak. Rebooting the device is recommended.";
-"Button_Close" = "Close";
+// Canh bao go Jailbreak
+"Removed_Jailbreak_Alert_Title" = "DA GO JAILBREAK";
+"Removed_Jailbreak_Alert_Message" = "Go bo jailbreak thanh cong. Ban nen khoi dong lai thiet bi.";
+"Button_Close" = "Dong";
 
-// Error View
-"Button_Share" = "Share";
-"Button_Reboot" = "Reboot";
+// Giao dien loi
+"Button_Share" = "Chia se ma loi";
+"Button_Reboot" = "Khoi dong lai may";
 
-// Settings Options
-"Settings_Tweak_Injection" = "Tweak Injection";
-"Settings_iDownload" = "iDownload (Developer Shell)";
-"Settings_Verbose_Logs" = "Verbose Logs";
-"Settings_Apps_JIT" = "Allow JIT in Apps";
-"Settings_Allow_Old_arm64e_ABI_Libraries" = "Allow Legacy arm64e Libraries";
-"Settings_Jetsam_Multiplier" = "Jetsam Multiplier";
+// Tuo chon cai dat
+"Settings_Tweak_Injection" = "Kich hoat Tweak (Tweak Injection)";
+"Settings_iDownload" = "Bat iDownload (Developer Shell)";
+"Settings_Verbose_Logs" = "Bat nhat ky chi tiet (Verbose Logs)";
+"Settings_Apps_JIT" = "Cho phep chay JIT trong ung dung";
+"Settings_Allow_Old_arm64e_ABI_Libraries" = "Cho phep thu vien arm64e cu (Legacy)";
+"Settings_Jetsam_Multiplier" = "He so nhan bo nho Jetsam";
 
-// Settings Buttons
-"Button_Remove_Jailbreak" = "Remove Jailbreak";
-"Button_Hide_Jailbreak" = "Hide Jailbreak";
-"Button_Unhide_Jailbreak" = "Unhide Jailbreak";
-"Button_Refresh_Jailbreak_Apps" = "Refresh Jailbreak Apps";
-"Button_Reinstall_Package_Managers" = "Reinstall Package Managers";
-"Button_Change_Mobile_Password" = "Change \"mobile\" Password";
+// Cac nut trong cai dat
+"Button_Remove_Jailbreak" = "GO BO HOAN TOAN JAILBREAK";
+"Button_Hide_Jailbreak" = "AN TAM THOI JAILBREAK";
+"Button_Unhide_Jailbreak" = "HUY AN JAILBREAK";
+"Button_Refresh_Jailbreak_Apps" = "Lam moi cac ung dung Jailbreak";
+"Button_Reinstall_Package_Managers" = "Cai dat lai Sileo / Trinh quan ly";
+"Button_Change_Mobile_Password" = "Doi mat khau nguoi dung 'mobile'";
 
-// Settings Hints
-"Hint_Hide_Jailbreak" = "\"Hide Jailbreak\" temporarily removes jailbreak-related files until the next rejailbreak";
-"Hint_Hide_Jailbreak_Jailbroken" = "\"Hide Jailbreak\" can be used to temporarily disable the jailbreak to get past certain jailbreak detection methods. It is not entirely effective and does not conceal everything, but should get the device to a similar state as to the state it is in after a reboot before rejailbreaking. It is not an adaquent replacement or substitute for RootHide. No support is offered for this option as it can cause issues, use it on your own risk.";
-"Section_Jailbreak_Settings" = "Jailbreak Settings";
-"Section_Actions" = "Actions";
-"Section_Customization" = "Customization";
-"Section_Exploits" = "Exploits";
-"Section_Boot_Logo" = "Boot Logo";
-"Jetsam_Description" = "Jetsam is a system feature that will automatically kill processes whose memory usage exceeds a specified limit. When many tweaks are installed, it is possible for this limit to be exceeded right at launch, causing processes to crash loop. Here you can select a multiplier that the memory limit of all processes launched with a memory limit will be multiplied by. Increase this setting when stuff is crash looping or if you encounter weird system behaviour when a large number of tweaks are installed. To not negatively impact the memory usage of the entire system, it is recommended to select the lowest option under which the system is stable.";
-"Enabled" = "Enabled";
-"Custom_Boot_Logo" = "Custom Boot Logo";
-"Select_Image" = "Select Image";
+// Goi y/Giai thich trong cai dat
+"Hint_Hide_Jailbreak" = "'An Jailbreak' se tam thoi xoa cac tep lien quan den jailbreak khoi he thong cho den khi ban tien hanh jailbreak lai lan sau.";
+"Hint_Hide_Jailbreak_Jailbroken" = "Tinh nang 'An Jailbreak' giup vuot qua mot so ung dung chan jailbreak (nhu app ngan hang). Tinh nang nay khong an duoc hoan toan 100%, nhung se dua may ve trang thai sach gan nhu luc vua khoi dong lai. Hay tu chiu rui ro khi su dung.";
+"Section_Jailbreak_Settings" = "Cau hinh Jailbreak";
+"Section_Actions" = "Hanh dong he thong";
+"Section_Customization" = "Tuy bien giao dien";
+"Section_Exploits" = "Lo hong (Exploits) su dung";
+"Section_Boot_Logo" = "Logo khi khoi dong";
+"Jetsam_Description" = "Jetsam la tinh nang he thong tu dong tat cac tien trinh chay ngam vuot qua gioi han RAM. Khi ban cai nhieu tweak, gioi han nay de bi vuot qua gay loi vang app lien tuc. Ban co temporary tang he so nhan RAM tai day de sua loi vang tweak. Khuyen khich chon muc thap nhat ma may van chay on dinh.";
+"Enabled" = "Dang bat";
+"Custom_Boot_Logo" = "Logo khoi dong tuy chinh";
+"Select_Image" = "Chon hinh anh tu may";
 
-// Settings Alerts
-"Alert_Tweak_Injection_Toggled_Title" = "Userspace Reboot Required";
-"Alert_Tweak_Injection_Toggled_Body" = "A userspace reboot is neccessary to apply the changes. Do you want to do it now?";
-"Alert_Tweak_Injection_Toggled_Reboot_Now" = "Reboot Now";
-"Alert_Tweak_Injection_Toggled_Reboot_Later" = "Reboot Later";
-"Alert_Remove_Jailbreak_Title" = "Remove Jailbreak";
-"Alert_Remove_Jailbreak_Pressed_Body" = "Removing jailbreak will delete all jailbreak-related files, but all regular apps, files and data will be kept. Are you sure you want to continue? You can't undo this action.";
-"Alert_Remove_Jailbreak_Enabled_Body" = "Enabling \"Remove Jailbreak\" will delete all jailbreak-related files on the next jailbreak, but all regular apps, files and data will be kept. Are you sure you want to continue? You can't undo this action.";
-"Alert_Change_Mobile_Password_Body" = "Set the password of the \"mobile\" user on your device, this can also be used for root access using sudo. If you want to set the root password, you can do so from a mobile shell using the command \"sudo passwd root\"";
-"Password_Placeholder" = "Password";
-"Repeat_Password_Placeholder" = "Repeat Password";
-"Password_Auth_Required" = "Authentication is required to change your mobile password.";
-"Button_Change" = "Change";
-"Button_Cancel" = "Cancel";
-"Button_Continue" = "Continue";
+// Thong bao trong cai dat
+"Alert_Tweak_Injection_Toggled_Title" = "Can khoi dong lai giao dien";
+"Alert_Tweak_Injection_Toggled_Body" = "Ban can khoi dong lai Userspace de ap dung thay doi. Thuc hien ngay bay gio?";
+"Alert_Tweak_Injection_Toggled_Reboot_Now" = "Khoi dong lai ngay";
+"Alert_Tweak_Injection_Toggled_Reboot_Later" = "De sau";
+"Alert_Remove_Jailbreak_Title" = "Xoa Jailbreak";
+"Alert_Remove_Jailbreak_Pressed_Body" = "Hanh dong nay se xoa toan bo cac tep va tweak lien quan den jailbreak, nhung hinh anh, danh ba, du lieu ca nhan cua ban van duoc giu nguyen. Ban chac chan muon tiep tuc?";
+"Alert_Remove_Jailbreak_Enabled_Body" = "Tinh nang 'Xoa Jailbreak' da kich hoat va se thuc thi o lan jailbreak ke tiep. Toan bo tweak se bi xoa sach, du lieu ca nhan van giu nguyen. Tiep tuc?";
+"Alert_Change_Mobile_Password_Body" = "Thiet lap mat khau cho tai khoan nguoi dung 'mobile' tren may ban. Mat khau nay dung cho quyen root toi cao trong Terminal (lenh sudo).";
+"Password_Placeholder" = "Mat khau moi";
+"Repeat_Password_Placeholder" = "Nhap lai mat khau";
+"Password_Auth_Required" = "Can xac thuc FaceID / Passcode de doi mat khau.";
+"Button_Change" = "Thay doi";
+"Button_Cancel" = "Huy bo";
+"Button_Continue" = "Tiep tuc";
 
-// Duplicate Apps Errors
-"Duplicate_Apps_Error_Dopamine_App" = "There are multiple apps with the identifier \"%@\" inside Dopamines application directory (\"%@\"). Cannot continue.";
-"Duplicate_Apps_Error_User_App" = "The apps with the identifiers %@ exist in Dopamines application directory (\"%@\") but are also installed separately on the system. Cannot continue.";
-"Duplicate_Apps_Error_Icon_Cache" = "The app with the identifier \"%@\" exists in the Dopamine application directory (\"%@\") but is also registered in icon cache under a different path (\"%@\"). Cannot continue.";
+// Loi ung dung trung lap
+"Duplicate_Apps_Error_Dopamine_App" = "Phat hien co nhieu ung dung trung ma dinh danh '%@' trong thu muc cua Dopamine. Khong the tiep tuc.";
+"Duplicate_Apps_Error_User_App" = "Ung dung ma hieu %@ vua ton tai trong muc Dopamine vua duoc cai rieng le tren man hinh. Khong the tiep tuc.";
+"Duplicate_Apps_Error_Icon_Cache" = "Ung dung '%@' gap loi xung dot bo nho dem Icon he thong. Khong the tiep tuc.";
 
-// Settings Lists
-"Theme" = "Theme";
-"Kernel Exploit" = "Kernel Exploit";
-"PPL Bypass" = "PPL Bypass";
-"SPTM Bypass" = "SPTM Bypass";
-"PAC Bypass" = "PAC Bypass";
-"None" = "None";
-"Recommended" = "Recommended";
+// Danh sach cai dat
+"Theme" = "Chu de giao dien (Mau nen)";
+"Kernel Exploit" = "Lo hong Kernel";
+"PPL Bypass" = "Vuot loi PPL";
+"SPTM Bypass" = "Vuot loi SPTM";
+"PAC Bypass" = "Vuot loi PAC";
+"None" = "Khong chon";
+"Recommended" = "Khuyen dung (On dinh nhat)";
 
-// DarkSword Workaround
-"Respring_Required" = "Respring Required";
-"Respring_Required_Message" = "The selected Kernel exploit requires creating a contiguous memory mapping which on this device is only possible with a special workaround that performs a respring. After the respring is done, reopen the Dopamine app and press \"Jailbreak\" again.";
-"Respring_Required_Notice_A8" = "On your device the workaround does not work every time and you may need to apply it multiple times until this alert no longer appears.";
-"Apply_Workaround" = "Apply Workaround";
-"Respring_Cancel" = "Cancel";
+// Sua loi chip cu (DarkSword)
+"Respring_Required" = "Yeu cau Respring";
+"Respring_Required_Message" = "Lo hong Kernel da chon yeu cau chay mot lenh va bo nho dac biet thong qua viec Respring may. Sau khi may Respring xong, hay mo lai app va bam nut 'Jailbreak' mot lan nua.";
+"Respring_Required_Notice_A8" = "Tren thiet bi chip cu, lenh va loi nay co the khong thanh cong ngay lan dau, ban can thu lai vai lan cho den khi bang nay bien mat.";
+"Apply_Workaround" = "Ap dung lenh va loi";
+"Respring_Cancel" = "Huy";
 
-// Credits
-"Credits_Button_Discord" = "Discord";
-"Credits_Button_License" = "Licenses";
-"Credits_Button_Source_Code" = "Source Code";
+// Dong gop
+"Credits_Button_Discord" = "Kenh Discord ho tro";
+"Credits_Button_License" = "Chung nhan ban quyen";
+"Credits_Button_Source_Code" = "Ma nguon goc du an";
 
-// Logs
-"Initializing Environment" = "Initializing Jailbreak Environment";
-"Initializing Protection" = "Initializing Protection";
-"Loading BaseBin TrustCache" = "Loading BaseBin TrustCache";
-"Applying Bind Mount" = "Applying Bind Mount";
-"Rebuilding Icon Cache" = "Rebuilding Icon Cache";
-"Removing Jailbreak" = "Removing Jailbreak";
-"Elevating Privileges" = "Elevating Privileges";
-"Cleaning Up Exploits" = "Cleaning Up Exploits";
-"Building Phys R/W Primitive" = "Building Phys R/W Primitive";
-"Rebooting Userspace" = "Rebooting Userspace";
-"Patchfinding" = "Patchfinding";
-"Exploiting Kernel (%@)" = "Exploiting Kernel (%@)";
-"Bypassing PAC (%@)" = "Bypassing PAC (%@)";
-"Bypassing PPL (%@)" = "Bypassing PPL (%@)";
-"Bypassing SPTM (%@)" = "Bypassing SPTM (%@)";
+// Tien trinh chay chu (Logs)
+"Initializing Environment" = "Dang khoi tao moi truong Jailbreak...";
+"Initializing Protection" = "Dang kich hoat he thong bao ve...";
+"Loading BaseBin TrustCache" = "Dang nap chung chi TrustCache...";
+"Applying Bind Mount" = "Dang lien ket phan vung he thong...";
+"Rebuilding Icon Cache" = "Dang lam moi bo nho cache bieu tuong...";
+"Removing Jailbreak" = "Dang tien hanh go bo Jailbreak...";
+"Elevating Privileges" = "Dang chiem quyen toi cao he thong (Root)...";
+"Cleaning Up Exploits" = "Dang don dep dau vet lo hong...";
+"Building Phys R/W Primitive" = "Dang thiet lap kenh doc/ghi bo nho...";
+"Rebooting Userspace" = "Dang khoi dong lai moi truong Userspace...";
+"Patchfinding" = "Dang tim kiem vi tri bo nho (Patchfinding)...";
+"Exploiting Kernel (%@)" = "Dang khai thac lo hong Kernel: %@";
+"Bypassing PAC (%@)" = "Dang vuot tuong lua PAC: %@";
+"Bypassing PPL (%@)" = "Dang vuot khien bao ve PPL: %@";
+"Bypassing SPTM (%@)" = "Dang qua mat co che quet SPTM: %@";
 
-// Package Manager selection
-"Status_Title_Select_Package_Managers" = "Select Package Manager(s)";
-"Select_Package_Managers_Install_Message" = "If you are unsure which one to select, select Sileo";
-"Continue" = "Continue";
+// Chon Trinh quan ly goi
+"Status_Title_Select_Package_Managers" = "Chon cua hang ung dung";
+"Select_Package_Managers_Install_Message" = "Neu ban khong ro nen chon cai nao, hay tich chon Sileo";
+"Continue" = "TIEP TUC CAI DAT";
